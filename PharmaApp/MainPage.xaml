@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://schemas.microsoft.com/dotnet/2021/maui/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="YourNamespace.MainPage">
+
+    <StackLayout>
+        <!-- Search bar at the top -->
+        <SearchBar Placeholder="Search..." />
+
+        <!-- Scrollable list in the middle -->
+        <ScrollView>
+            <StackLayout>
+                <!-- Replace this with your actual list items -->
+                <Label Text="Item 1" />
+                <Label Text="Item 2" />
+                <Label Text="Item 3" />
+                <!-- Add more items as needed -->
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Button on the bottom left corner -->
+        <Button Text="Button"
+                HorizontalOptions="Start"
+                VerticalOptions="End" />
+    </StackLayout>
+
+</ContentPage>
